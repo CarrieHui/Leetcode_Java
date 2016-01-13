@@ -2,6 +2,12 @@ package iCoding;
 
 import java.util.Stack;
 
+/**
+ * https://leetcode.com/problems/valid-parentheses/ (20. Valid Parentheses)
+ * @author carrieli
+ *
+ */
+
 public class IsValid {
 	public static void main(String[] args){
 		String str = "{})";

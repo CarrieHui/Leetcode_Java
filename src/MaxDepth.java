@@ -1,5 +1,12 @@
 package iCoding;
 
+/**
+ * https://leetcode.com/problems/maximum-depth-of-binary-tree/ (104. Maximum Depth of Binary Tree)
+ * @author carrieli
+ *
+ */
+
+/*
 class TreeNode{
 	int val;
 	TreeNode left;
@@ -8,6 +15,7 @@ class TreeNode{
 		this.val =val;
 	}
 }
+*/
 
 public class MaxDepth {
 	

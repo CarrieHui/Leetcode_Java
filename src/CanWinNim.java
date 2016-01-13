@@ -1,13 +1,19 @@
 package iCoding;
 
-public class NimGame {
+
+/**
+ * https://leetcode.com/problems/nim-game/ (292. Nim Game)
+ * @author carrieli
+ *
+ */
+public class CanWinNim {
 	public static void main(String[] args){
 		int n = 4;
-		boolean can = canWin(n);
+		boolean can = canWinNim(n);
 		System.out.println(can);
 	}
 	
-	public static boolean canWin(int n){
+	public static boolean canWinNim(int n){
 		if(n <= 0)
 			return false;
 		else{

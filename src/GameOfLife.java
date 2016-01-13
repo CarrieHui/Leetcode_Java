@@ -1,5 +1,11 @@
 package iCoding;
 
+/**
+ * https://leetcode.com/problems/game-of-life/ (289. Game of Life)
+ * @author carrieli
+ *
+ */
+
 public class GameOfLife {
 	
 	public static void main(String args[]){

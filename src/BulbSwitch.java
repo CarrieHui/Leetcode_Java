@@ -1,14 +1,17 @@
 package iCoding;
 
+/**
+ * https://leetcode.com/problems/bulb-switcher/ (319. Bulb Switcher)
+ * @author carrieli
+ *
+ */
 public class BulbSwitch {
-	
 	public static void main(String[] args){
 		int n = 9999999;
 		int total = bulbSwitch(n);
 		System.out.print(total);
 	}
 	
-
 	public static int bulbSwitch(int n ){
 		/*
 		int total = 0;

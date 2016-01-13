@@ -1,5 +1,12 @@
 package iCoding;
 
+/**
+ * https://leetcode.com/problems/house-robber/ (198. House Robber My Submissions Question
+)
+ * @author carrieli
+ *
+ */
+
 public class Rob {
 	public static void main(String[] args){
 		int[] nums = {8, 5, 9, 3, 1, 20};

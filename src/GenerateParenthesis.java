@@ -2,6 +2,11 @@ package iCoding;
 
 import java.util.*;
 
+/**
+ * https://leetcode.com/problems/generate-parentheses/ (22. Generate Parentheses)
+ * @author carrieli
+ *
+ */
 public class GenerateParenthesis {
 	public static void main(String[] args){
 		List<String> myList = new ArrayList<String>();

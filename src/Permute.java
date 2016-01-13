@@ -2,6 +2,12 @@ package iCoding;
 
 import java.util.*;
 
+/**
+ * https://leetcode.com/problems/permutations/ (46. Permutations)
+ * @author carrieli
+ *
+ */
+
 public class Permute {
 	public static void main(String[] args){
 		List<List<Integer>> list = new ArrayList<List<Integer>>();
@@ -72,3 +78,54 @@ public class Permute {
 	}
 	*/
 }
+
+
+/*
+ public class FullPermu { 
+	
+	public static Set<String> set = new TreeSet<String>(); //TreeSet可以自动对元素排序再呈现出来
+	
+	// main函数
+	public static void main(String args[]) {
+		char[] number = new char[] { '1', '2', '3', '4', '5', '6'};
+		perm(number, 0, number.length - 1);
+		System.out.println(set.size());
+		int cols = 10;
+		for (String s : set) {
+			System.out.print(s + " ");
+			if (cols-- == 1) {
+				System.out.println();
+				cols = 10;
+			}
+		}
+	}
+	
+	public static void perm(char[] n, int beg, int end) {
+		if (beg == end) {
+			addNumber(String.valueOf(n));
+		} else {
+			for (int i = beg; i <= end; ++i) {
+				swap(n, beg, i);
+				perm(n, beg + 1, end);
+				swap(n, beg, i);
+			}
+		}
+	} 
+	
+	// 如果x,y二者对应位置元素不同，则交换
+	public static void swap(char[] n, int x, int y) {
+		if (n[x] == n[y]) {
+			return;
+		}
+		char temp = n[x];
+		n[x] = n[y];
+		n[y] = temp;
+	} 
+	
+	// 将满足给定条件的序列添加到集合set中
+	public static void addNumber(String str) {
+		
+		set.add(str);
+	} 
+}
+ */

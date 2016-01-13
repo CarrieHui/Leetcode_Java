@@ -1,5 +1,11 @@
 package iCoding;
 
+/**
+ * https://leetcode.com/problems/missing-number/ (268. Missing Number)
+ * @author carrieli
+ *
+ */
+
 public class MissingNumber {
 	public static void main(String[] args){
 		int[] nums = {0, 1, 2, 3, 4, 5, 7};

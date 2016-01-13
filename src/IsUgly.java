@@ -1,6 +1,10 @@
 package iCoding;
 
-// import java.util.*;
+/**
+ * https://leetcode.com/problems/ugly-number/ (263. Ugly Number)
+ * @author carrieli
+ *
+ */
 
 public class IsUgly {
 

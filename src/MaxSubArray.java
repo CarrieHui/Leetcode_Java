@@ -1,5 +1,11 @@
 package iCoding;
 
+/**
+ * https://leetcode.com/problems/maximum-subarray/ (53. Maximum Subarray)
+ * @author carrieli
+ *
+ */
+
 public class MaxSubArray {
 	public static void main(String[] args){
 		int[] nums = {-2, -3, -1, -5};

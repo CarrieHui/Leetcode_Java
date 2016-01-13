@@ -2,6 +2,12 @@ package iCoding;
 
 import java.util.*;
 
+
+/**
+ * https://leetcode.com/problems/super-ugly-number/ (313. Super Ugly Number)
+ * @author carrieli
+ *
+ */
 public class NthSuperUglyNumber {
 	
 	public static void main(String[] args){

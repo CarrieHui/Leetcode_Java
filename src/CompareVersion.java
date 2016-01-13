@@ -1,5 +1,12 @@
 package iCoding;
 
+/**
+ * https://leetcode.com/problems/compare-version-numbers/ (165. Compare Version Numbers My Submissions Question
+)
+ * @author carrieli
+ *
+ */
+
 public class CompareVersion {
 	public static void main(String args[]){
 		System.out.println(compareVersion("1.0.1", "1"));

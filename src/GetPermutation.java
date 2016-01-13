@@ -2,6 +2,12 @@ package iCoding;
 
 import java.util.*;
 
+/**
+ * https://leetcode.com/problems/permutation-sequence/ (60. Permutation Sequence)
+ * @author carrieli
+ *
+ */
+
 public class GetPermutation {
 	public static void main(String[] args){
 		System.out.println(getPermutation(8, 1));

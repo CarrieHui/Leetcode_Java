@@ -1,5 +1,11 @@
 package iCoding;
 
+/**
+ * https://leetcode.com/problems/valid-sudoku/ (36. Valid Sudoku)
+ * @author carrieli
+ *
+ */
+
 public class IsValidSudoku {
 	public static void main(String[] args){
 		char[][] board = {

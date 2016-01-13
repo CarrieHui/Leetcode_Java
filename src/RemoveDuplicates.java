@@ -1,5 +1,11 @@
 package iCoding;
 
+/**
+ * https://leetcode.com/problems/remove-duplicates-from-sorted-array/ (26. Remove Duplicates from Sorted Array)
+ * @author carrieli
+ *
+ */
+
 public class RemoveDuplicates {
 	public static void main(String[] args){
 		int len;

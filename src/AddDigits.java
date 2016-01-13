@@ -1,5 +1,11 @@
 package iCoding;
 
+/**
+ * https://leetcode.com/problems/add-digits/ (258. Add Digits)
+ * @author carrieli
+ *
+ */
+
 public class AddDigits {
 	public static void main(String[] args){
 		System.out.println(addDigits(99998));
